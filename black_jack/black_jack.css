@@ -1,0 +1,40 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: url("jack.jpg");
+  text-align: center;
+  margin-top: 15%;
+  font-size: larger;
+  background-size: cover;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-size: large;
+}
+
+#message {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  border-radius: 3px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+button:active {
+  background-color: orange;
+  transform: translateY(1px);
+}
+
+h1 {
+  color: goldenrod;
+}
